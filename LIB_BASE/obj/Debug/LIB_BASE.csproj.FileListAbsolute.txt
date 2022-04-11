@@ -1,0 +1,12 @@
+C:\Users\victo\source\repos\Vente_Guitare\LIB_BASE\bin\Debug\LIB_BASE.dll
+C:\Users\victo\source\repos\Vente_Guitare\LIB_BASE\bin\Debug\LIB_BASE.pdb
+C:\Users\victo\source\repos\Vente_Guitare\LIB_BASE\obj\Debug\LIB_BASE.csproj.AssemblyReference.cache
+C:\Users\victo\source\repos\Vente_Guitare\LIB_BASE\obj\Debug\LIB_BASE.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\Vente_Guitare\LIB_BASE\obj\Debug\LIB_BASE.dll
+C:\Users\victo\source\repos\Vente_Guitare\LIB_BASE\obj\Debug\LIB_BASE.pdb
+C:\Users\victo\source\repos\Vente_Guitare\LIB_BASE\bin\Debug\LIB_BASE.dll.config
+C:\Users\victo\source\repos\Vente_Guitare\LIB_BASE\bin\Debug\EntityFramework.dll
+C:\Users\victo\source\repos\Vente_Guitare\LIB_BASE\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\victo\source\repos\Vente_Guitare\LIB_BASE\bin\Debug\EntityFramework.xml
+C:\Users\victo\source\repos\Vente_Guitare\LIB_BASE\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\victo\source\repos\Vente_Guitare\LIB_BASE\obj\Debug\LIB_BASE.csproj.CopyComplete

@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="getBois">
+        <s:complexType />
+      </s:element>
+      <s:element name="getBoisResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getBoisResult" type="tns:ArrayOfC_BOIS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfC_BOIS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="C_BOIS" nillable="true" type="tns:C_BOIS" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="C_BOIS">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id_Bois" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Prix" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="addBois">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bois1" type="tns:C_BOIS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addBoisResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="setBois">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="P_bois" type="tns:C_BOIS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setBoisResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getMicros">
+        <s:complexType />
+      </s:element>
+      <s:element name="getMicrosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getMicrosResult" type="tns:ArrayOfC_MICRO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfC_MICRO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="C_MICRO" nillable="true" type="tns:C_MICRO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="C_MICRO">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id_Micro" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Reference" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Prix" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="addMicro">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="C_micro" type="tns:C_MICRO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addMicroResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="setMicro">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="P_micro" type="tns:C_MICRO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setMicroResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getVibrato">
+        <s:complexType />
+      </s:element>
+      <s:element name="getVibratoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getVibratoResult" type="tns:ArrayOfC_VIBRATO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfC_VIBRATO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="C_VIBRATO" nillable="true" type="tns:C_VIBRATO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="C_VIBRATO">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id_Vibrato" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Prix" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="addVibrato">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="C_vibrato" type="tns:C_VIBRATO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addVibratoResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="setVibrato">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="P_Vibrato" type="tns:C_VIBRATO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setVibratoResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getGuitare">
+        <s:complexType />
+      </s:element>
+      <s:element name="getGuitareResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getGuitareResult" type="tns:ArrayOfC_GUITARE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfC_GUITARE">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="C_GUITARE" nillable="true" type="tns:C_GUITARE" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="C_GUITARE">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id_Guitare" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="numero" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Id_Vibrato" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Id_User" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="mancheBois" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="corpsBois" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="toucheBois" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Id_Micro" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Id_Micro_1" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Id_Micro_2" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="BoisManche" type="tns:C_BOIS" />
+          <s:element minOccurs="0" maxOccurs="1" name="BoisCorps" type="tns:C_BOIS" />
+          <s:element minOccurs="0" maxOccurs="1" name="BoisTouche" type="tns:C_BOIS" />
+          <s:element minOccurs="0" maxOccurs="1" name="Micro" type="tns:C_MICRO" />
+          <s:element minOccurs="0" maxOccurs="1" name="Micro1" type="tns:C_MICRO" />
+          <s:element minOccurs="0" maxOccurs="1" name="Micro2" type="tns:C_MICRO" />
+          <s:element minOccurs="0" maxOccurs="1" name="Proprietaire" type="tns:C_USER" />
+          <s:element minOccurs="0" maxOccurs="1" name="Vibrato" type="tns:C_VIBRATO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="C_USER">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id_User" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Prenom" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="telephone" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="addGuitare">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="arg1" type="tns:C_GUITARE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addGuitareResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="setGuitare">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="P_guitard" type="tns:C_GUITARE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setGuitareResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getGuitareByUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="P_user" type="tns:C_USER" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getGuitareByUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getGuitareByUserResult" type="tns:ArrayOfC_GUITARE" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getBoisSoapIn">
+    <wsdl:part name="parameters" element="tns:getBois" />
+  </wsdl:message>
+  <wsdl:message name="getBoisSoapOut">
+    <wsdl:part name="parameters" element="tns:getBoisResponse" />
+  </wsdl:message>
+  <wsdl:message name="addBoisSoapIn">
+    <wsdl:part name="parameters" element="tns:addBois" />
+  </wsdl:message>
+  <wsdl:message name="addBoisSoapOut">
+    <wsdl:part name="parameters" element="tns:addBoisResponse" />
+  </wsdl:message>
+  <wsdl:message name="setBoisSoapIn">
+    <wsdl:part name="parameters" element="tns:setBois" />
+  </wsdl:message>
+  <wsdl:message name="setBoisSoapOut">
+    <wsdl:part name="parameters" element="tns:setBoisResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMicrosSoapIn">
+    <wsdl:part name="parameters" element="tns:getMicros" />
+  </wsdl:message>
+  <wsdl:message name="getMicrosSoapOut">
+    <wsdl:part name="parameters" element="tns:getMicrosResponse" />
+  </wsdl:message>
+  <wsdl:message name="addMicroSoapIn">
+    <wsdl:part name="parameters" element="tns:addMicro" />
+  </wsdl:message>
+  <wsdl:message name="addMicroSoapOut">
+    <wsdl:part name="parameters" element="tns:addMicroResponse" />
+  </wsdl:message>
+  <wsdl:message name="setMicroSoapIn">
+    <wsdl:part name="parameters" element="tns:setMicro" />
+  </wsdl:message>
+  <wsdl:message name="setMicroSoapOut">
+    <wsdl:part name="parameters" element="tns:setMicroResponse" />
+  </wsdl:message>
+  <wsdl:message name="getVibratoSoapIn">
+    <wsdl:part name="parameters" element="tns:getVibrato" />
+  </wsdl:message>
+  <wsdl:message name="getVibratoSoapOut">
+    <wsdl:part name="parameters" element="tns:getVibratoResponse" />
+  </wsdl:message>
+  <wsdl:message name="addVibratoSoapIn">
+    <wsdl:part name="parameters" element="tns:addVibrato" />
+  </wsdl:message>
+  <wsdl:message name="addVibratoSoapOut">
+    <wsdl:part name="parameters" element="tns:addVibratoResponse" />
+  </wsdl:message>
+  <wsdl:message name="setVibratoSoapIn">
+    <wsdl:part name="parameters" element="tns:setVibrato" />
+  </wsdl:message>
+  <wsdl:message name="setVibratoSoapOut">
+    <wsdl:part name="parameters" element="tns:setVibratoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getGuitareSoapIn">
+    <wsdl:part name="parameters" element="tns:getGuitare" />
+  </wsdl:message>
+  <wsdl:message name="getGuitareSoapOut">
+    <wsdl:part name="parameters" element="tns:getGuitareResponse" />
+  </wsdl:message>
+  <wsdl:message name="addGuitareSoapIn">
+    <wsdl:part name="parameters" element="tns:addGuitare" />
+  </wsdl:message>
+  <wsdl:message name="addGuitareSoapOut">
+    <wsdl:part name="parameters" element="tns:addGuitareResponse" />
+  </wsdl:message>
+  <wsdl:message name="setGuitareSoapIn">
+    <wsdl:part name="parameters" element="tns:setGuitare" />
+  </wsdl:message>
+  <wsdl:message name="setGuitareSoapOut">
+    <wsdl:part name="parameters" element="tns:setGuitareResponse" />
+  </wsdl:message>
+  <wsdl:message name="getGuitareByUserSoapIn">
+    <wsdl:part name="parameters" element="tns:getGuitareByUser" />
+  </wsdl:message>
+  <wsdl:message name="getGuitareByUserSoapOut">
+    <wsdl:part name="parameters" element="tns:getGuitareByUserResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WS_GUITARDSoap">
+    <wsdl:operation name="getBois">
+      <wsdl:input message="tns:getBoisSoapIn" />
+      <wsdl:output message="tns:getBoisSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addBois">
+      <wsdl:input message="tns:addBoisSoapIn" />
+      <wsdl:output message="tns:addBoisSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setBois">
+      <wsdl:input message="tns:setBoisSoapIn" />
+      <wsdl:output message="tns:setBoisSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMicros">
+      <wsdl:input message="tns:getMicrosSoapIn" />
+      <wsdl:output message="tns:getMicrosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addMicro">
+      <wsdl:input message="tns:addMicroSoapIn" />
+      <wsdl:output message="tns:addMicroSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setMicro">
+      <wsdl:input message="tns:setMicroSoapIn" />
+      <wsdl:output message="tns:setMicroSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getVibrato">
+      <wsdl:input message="tns:getVibratoSoapIn" />
+      <wsdl:output message="tns:getVibratoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addVibrato">
+      <wsdl:input message="tns:addVibratoSoapIn" />
+      <wsdl:output message="tns:addVibratoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setVibrato">
+      <wsdl:input message="tns:setVibratoSoapIn" />
+      <wsdl:output message="tns:setVibratoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getGuitare">
+      <wsdl:input message="tns:getGuitareSoapIn" />
+      <wsdl:output message="tns:getGuitareSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addGuitare">
+      <wsdl:input message="tns:addGuitareSoapIn" />
+      <wsdl:output message="tns:addGuitareSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setGuitare">
+      <wsdl:input message="tns:setGuitareSoapIn" />
+      <wsdl:output message="tns:setGuitareSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getGuitareByUser">
+      <wsdl:input message="tns:getGuitareByUserSoapIn" />
+      <wsdl:output message="tns:getGuitareByUserSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WS_GUITARDSoap" type="tns:WS_GUITARDSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getBois">
+      <soap:operation soapAction="http://tempuri.org/getBois" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addBois">
+      <soap:operation soapAction="http://tempuri.org/addBois" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setBois">
+      <soap:operation soapAction="http://tempuri.org/setBois" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMicros">
+      <soap:operation soapAction="http://tempuri.org/getMicros" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addMicro">
+      <soap:operation soapAction="http://tempuri.org/addMicro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setMicro">
+      <soap:operation soapAction="http://tempuri.org/setMicro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVibrato">
+      <soap:operation soapAction="http://tempuri.org/getVibrato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addVibrato">
+      <soap:operation soapAction="http://tempuri.org/addVibrato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setVibrato">
+      <soap:operation soapAction="http://tempuri.org/setVibrato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGuitare">
+      <soap:operation soapAction="http://tempuri.org/getGuitare" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addGuitare">
+      <soap:operation soapAction="http://tempuri.org/addGuitare" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setGuitare">
+      <soap:operation soapAction="http://tempuri.org/setGuitare" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGuitareByUser">
+      <soap:operation soapAction="http://tempuri.org/getGuitareByUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WS_GUITARDSoap12" type="tns:WS_GUITARDSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getBois">
+      <soap12:operation soapAction="http://tempuri.org/getBois" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addBois">
+      <soap12:operation soapAction="http://tempuri.org/addBois" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setBois">
+      <soap12:operation soapAction="http://tempuri.org/setBois" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMicros">
+      <soap12:operation soapAction="http://tempuri.org/getMicros" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addMicro">
+      <soap12:operation soapAction="http://tempuri.org/addMicro" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setMicro">
+      <soap12:operation soapAction="http://tempuri.org/setMicro" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getVibrato">
+      <soap12:operation soapAction="http://tempuri.org/getVibrato" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addVibrato">
+      <soap12:operation soapAction="http://tempuri.org/addVibrato" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setVibrato">
+      <soap12:operation soapAction="http://tempuri.org/setVibrato" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGuitare">
+      <soap12:operation soapAction="http://tempuri.org/getGuitare" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addGuitare">
+      <soap12:operation soapAction="http://tempuri.org/addGuitare" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setGuitare">
+      <soap12:operation soapAction="http://tempuri.org/setGuitare" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getGuitareByUser">
+      <soap12:operation soapAction="http://tempuri.org/getGuitareByUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WS_GUITARD">
+    <wsdl:port name="WS_GUITARDSoap" binding="tns:WS_GUITARDSoap">
+      <soap:address location="https://localhost:44304/WS_GUITARD.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WS_GUITARDSoap12" binding="tns:WS_GUITARDSoap12">
+      <soap12:address location="https://localhost:44304/WS_GUITARD.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NS_BASE_AZUREStoreContainer" CdmEntityContainer="C_BASE_AZURE">
+    <EntitySetMapping Name="Les_Bois">
+      <EntityTypeMapping TypeName="NS_BASE_AZURE.C_BOIS">
+        <MappingFragment StoreEntitySet="Bois">
+          <ScalarProperty Name="Id_Bois" ColumnName="Id_Bois" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Prix" ColumnName="Prix" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Les_Micros">
+      <EntityTypeMapping TypeName="NS_BASE_AZURE.C_MICRO">
+        <MappingFragment StoreEntitySet="Micro">
+          <ScalarProperty Name="Id_Micro" ColumnName="Id_Micro" />
+          <ScalarProperty Name="Reference" ColumnName="Reference" />
+          <ScalarProperty Name="Prix" ColumnName="Prix" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Les_Users">
+      <EntityTypeMapping TypeName="NS_BASE_AZURE.C_USER">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id_User" ColumnName="Id_User" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Nom" ColumnName="Nom" />
+          <ScalarProperty Name="Prenom" ColumnName="Prenom" />
+          <ScalarProperty Name="telephone" ColumnName="telephone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Les_Vibratos">
+      <EntityTypeMapping TypeName="NS_BASE_AZURE.C_VIBRATO">
+        <MappingFragment StoreEntitySet="Vibrato">
+          <ScalarProperty Name="Id_Vibrato" ColumnName="Id_Vibrato" />
+          <ScalarProperty Name="Prix" ColumnName="Prix" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Les_guitares">
+      <EntityTypeMapping TypeName="NS_BASE_AZURE.C_GUITARE">
+        <MappingFragment StoreEntitySet="Guitare">
+          <ScalarProperty Name="numero" ColumnName="numero" />
+          <ScalarProperty Name="Id_Micro_2" ColumnName="Id_Micro_2" />
+          <ScalarProperty Name="Id_Micro_1" ColumnName="Id_Micro_1" />
+          <ScalarProperty Name="Id_Micro" ColumnName="Id_Micro" />
+          <ScalarProperty Name="toucheBois" ColumnName="toucheBois" />
+          <ScalarProperty Name="corpsBois" ColumnName="corpsBois" />
+          <ScalarProperty Name="mancheBois" ColumnName="mancheBois" />
+          <ScalarProperty Name="Id_User" ColumnName="Id_User" />
+          <ScalarProperty Name="Id_Vibrato" ColumnName="Id_Vibrato" />
+          <ScalarProperty Name="Id_Guitare" ColumnName="Id_Guitare" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

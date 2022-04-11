@@ -1,0 +1,5 @@
+C:\Users\victo\source\repos\Vente_Guitare\Vente_Guitare\obj\Debug\net6.0-windows\Vente_Guitare.csproj.AssemblyReference.cache
+C:\Users\victo\source\repos\Vente_Guitare\Vente_Guitare\obj\Debug\net6.0-windows\Presentation\C_CADRE.g.cs
+C:\Users\victo\source\repos\Vente_Guitare\Vente_Guitare\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\victo\source\repos\Vente_Guitare\Vente_Guitare\obj\Debug\net6.0-windows\Vente_Guitare_MarkupCompile.cache
+C:\Users\victo\source\repos\Vente_Guitare\Vente_Guitare\obj\Debug\net6.0-windows\Vente_Guitare_MarkupCompile.lref

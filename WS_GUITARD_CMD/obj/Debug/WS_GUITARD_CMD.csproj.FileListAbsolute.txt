@@ -1,0 +1,17 @@
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\bin\Debug\WS_GUITARD_CMD.exe.config
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\bin\Debug\WS_GUITARD_CMD.exe
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\bin\Debug\WS_GUITARD_CMD.pdb
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\bin\Debug\WS_GUITARD.dll
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\bin\Debug\LIB_BASE.dll
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\bin\Debug\EntityFramework.dll
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\bin\Debug\WS_GUITARD.pdb
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\bin\Debug\WS_GUITARD.dll.config
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\bin\Debug\LIB_BASE.pdb
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\bin\Debug\LIB_BASE.dll.config
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\bin\Debug\EntityFramework.xml
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\obj\Debug\WS_GUITARD_CMD.csproj.AssemblyReference.cache
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\obj\Debug\WS_GUITARD_CMD.csproj.SuggestedBindingRedirects.cache
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\obj\Debug\WS_GUITARD_CMD.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\obj\Debug\WS_GUITARD_CMD.csproj.CopyComplete
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\obj\Debug\WS_GUITARD_CMD.exe
+C:\Users\victo\source\repos\Vente_Guitare\WS_GUITARD_CMD\obj\Debug\WS_GUITARD_CMD.pdb

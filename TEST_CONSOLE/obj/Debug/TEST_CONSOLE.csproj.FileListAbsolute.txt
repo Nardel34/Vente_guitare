@@ -1,0 +1,16 @@
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\bin\Debug\TEST_CONSOLE.exe.config
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\bin\Debug\TEST_CONSOLE.exe
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\bin\Debug\TEST_CONSOLE.pdb
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\bin\Debug\LIB_BASE.dll
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\bin\Debug\LIB_BASE.pdb
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\obj\Debug\TEST_CONSOLE.csproj.AssemblyReference.cache
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\obj\Debug\TEST_CONSOLE.csproj.SuggestedBindingRedirects.cache
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\obj\Debug\TEST_CONSOLE.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\obj\Debug\TEST_CONSOLE.csproj.CopyComplete
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\obj\Debug\TEST_CONSOLE.exe
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\obj\Debug\TEST_CONSOLE.pdb
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\bin\Debug\EntityFramework.dll
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\bin\Debug\LIB_BASE.dll.config
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\bin\Debug\EntityFramework.xml
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\victo\source\repos\Vente_Guitare\TEST_CONSOLE\bin\Debug\EntityFramework.SqlServer.xml
